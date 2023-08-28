@@ -1,0 +1,331 @@
+{
+  "mod_elements": [
+    {
+      "name": "ObamaiteOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/obamapower/models/item/obamaite_ore.json",
+          "src/main/resources/data/obamapower/worldgen/configured_feature/obamaite_ore.json",
+          "src/main/resources/assets/obamapower/blockstates/obamaite_ore.json",
+          "src/main/java/net/moddedinstalltwo/obamapower/world/features/ores/ObamaiteOreFeature.java",
+          "src/main/resources/assets/obamapower/models/block/obamaite_ore.json",
+          "src/main/resources/data/obamapower/worldgen/placed_feature/obamaite_ore.json",
+          "src/main/java/net/moddedinstalltwo/obamapower/block/ObamaiteOreBlock.java",
+          "src/main/resources/data/obamapower/forge/biome_modifier/obamaite_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "ObamaiteGem",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/moddedinstalltwo/obamapower/item/ObamaiteGemItem.java",
+          "src/main/resources/assets/obamapower/models/item/obamaite_gem.json"
+        ]
+      }
+    },
+    {
+      "name": "OBAMA",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obama",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ObamaiteArmor",
+      "type": "armor",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/obamapower/models/item/obamaite_armor_leggings.json",
+          "src/main/resources/assets/obamapower/models/item/obamaite_armor_boots.json",
+          "src/main/java/net/moddedinstalltwo/obamapower/item/ObamaiteArmorItem.java",
+          "src/main/resources/assets/obamapower/models/item/obamaite_armor_chestplate.json",
+          "src/main/resources/assets/obamapower/models/item/obamaite_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "ObamaiteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obamapower/recipes/obamaite_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ObamaiteArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obamapower/recipes/obamaite_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ObamaiteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obamapower/recipes/obamaite_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ObamaiteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obamapower/recipes/obamaite_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ObamaitePickaxe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/moddedinstalltwo/obamapower/item/ObamaitePickaxeItem.java",
+          "src/main/resources/assets/obamapower/models/item/obamaite_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "ObamaiteAxe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/obamapower/models/item/obamaite_axe.json",
+          "src/main/java/net/moddedinstalltwo/obamapower/item/ObamaiteAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ObamaiteSword",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/obamapower/models/item/obamaite_sword.json",
+          "src/main/java/net/moddedinstalltwo/obamapower/item/ObamaiteSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ObamaiteShovel",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/moddedinstalltwo/obamapower/item/ObamaiteShovelItem.java",
+          "src/main/resources/assets/obamapower/models/item/obamaite_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "ObamaiteHoe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/obamapower/models/item/obamaite_hoe.json",
+          "src/main/java/net/moddedinstalltwo/obamapower/item/ObamaiteHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ObamaitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obamapower/recipes/obamaite_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ObamaiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obamapower/recipes/obamaite_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ObamaiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obamapower/recipes/obamaite_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ObamaiteShovelRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obamapower/recipes/obamaite_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ObamaiteHoeRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obamaite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obamapower/recipes/obamaite_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ItsObamaTime",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "its_obama_time",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obamapower/advancements/its_obama_time.json"
+        ]
+      }
+    },
+    {
+      "name": "ObamaiteArmorTickEvent",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "obamaite_armor_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/moddedinstalltwo/obamapower/procedures/ObamaiteArmorTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.obamapower.obamaite_armor_leggings": "Obamaite Leggings",
+      "item.obamapower.obamaite_hoe": "Obamaite Hoe",
+      "block.obamapower.obamaite_ore": "Obamaite Ore",
+      "advancements.its_obama_time.descr": "Become Obama",
+      "item.obamapower.obamaite_armor_chestplate": "Obamaite Chestplate",
+      "advancements.its_obama_time.title": "It\u0027s Obama Time",
+      "item.obamapower.obamaite_pickaxe": "Obamaite Pickaxe",
+      "item.obamapower.obamaite_shovel": "Obamaite Shovel",
+      "item.obamapower.obamaite_armor_helmet": "Obamaite Helmet",
+      "item.obamapower.obamaite_gem": "Obamaite Gem",
+      "item_group.obamapower.obama": "OBAMA",
+      "item.obamapower.obamaite_axe": "Obamaite Axe",
+      "item.obamapower.obamaite_sword": "Obamaite Sword",
+      "item.obamapower.obamaite_armor_boots": "Obamaite Boots"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "obamapower",
+    "modName": "ObamaPower",
+    "version": "1.0.0",
+    "author": "modded, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "modElementsPackage": "net.moddedinstalltwo.obamapower",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
