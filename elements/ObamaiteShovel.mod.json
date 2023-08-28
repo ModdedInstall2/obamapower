@@ -1,0 +1,34 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "obamaite_shovel",
+    "customModelName": "Normal",
+    "name": "Obamaite Shovel",
+    "specialInfo": [
+      "See that block of dirt? I don't",
+      "'cause it doesn't exist anymore. You sure there was dirt there? I'm confused. Are you okay?"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:OBAMA"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 20,
+    "efficiency": 24.0,
+    "attackSpeed": 1.0,
+    "enchantability": 140,
+    "damageVsEntity": 20.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ObamaiteGem"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

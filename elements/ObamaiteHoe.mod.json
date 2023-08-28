@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "obamaite_hoe",
+    "customModelName": "Normal",
+    "name": "Obamaite Hoe",
+    "specialInfo": [
+      "Farming? More like a single tick. Am I right or am I right?"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:OBAMA"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 20,
+    "efficiency": 24.0,
+    "attackSpeed": 1.0,
+    "enchantability": 140,
+    "damageVsEntity": 20.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ObamaiteGem"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

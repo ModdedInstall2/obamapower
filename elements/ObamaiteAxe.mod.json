@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "obamaite_axe",
+    "customModelName": "Normal",
+    "name": "Obamaite Axe",
+    "specialInfo": [
+      "Tears through wood like oil through water. Also chickens."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:OBAMA"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 20,
+    "efficiency": 24.0,
+    "attackSpeed": 1.0,
+    "enchantability": 140,
+    "damageVsEntity": 90.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ObamaiteGem"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
