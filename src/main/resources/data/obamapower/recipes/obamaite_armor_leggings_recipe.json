@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "obamapower:obamaite_gem"
+    },
+    "1": {
+      "item": "obamapower:obamaite_gem"
+    },
+    "2": {
+      "item": "obamapower:obamaite_gem"
+    },
+    "3": {
+      "item": "obamapower:obamaite_gem"
+    },
+    "5": {
+      "item": "obamapower:obamaite_gem"
+    },
+    "6": {
+      "item": "obamapower:obamaite_gem"
+    },
+    "8": {
+      "item": "obamapower:obamaite_gem"
+    }
+  },
+  "result": {
+    "item": "obamapower:obamaite_armor_leggings",
+    "count": 1
+  }
+}
